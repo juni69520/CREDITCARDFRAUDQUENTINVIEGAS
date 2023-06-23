@@ -1,0 +1,106 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": true,
+    "exportManagedFS": false,
+    "exportAnalysisModels": true,
+    "exportSavedModels": true,
+    "exportManagedFolders": false,
+    "exportModelEvaluationStores": false,
+    "exportProjectResources": true,
+    "exportLabelingTasks": false,
+    "exportAllInputDatasets": true,
+    "exportAllDatasets": false,
+    "exportAllInputManagedFolders": false,
+    "exportGitRepository": true,
+    "exportInsightsData": false,
+    "useManualPluginsInfo": false,
+    "exportNotebooksWithOutputs": true,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedModelEvaluationStores": [],
+    "includedManagedFolders": [],
+    "includedCodeStudios": [],
+    "includedLabelingTasks": [],
+    "shareAllInputDatasets": false,
+    "exportForeignObjectsReferences": true
+  },
+  "actualContent": {
+    "includedDatasets": [
+      {
+        "name": "cardholder_info",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 2564560
+      },
+      {
+        "name": "merchant_info",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 3396162
+      },
+      {
+        "name": "transactions_2017",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 19039336
+      },
+      {
+        "name": "transactions_2018",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 5411596
+      }
+    ],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "includedModelEvaluationStores": [],
+    "includedCodeStudios": [],
+    "includedLabelingTasks": [],
+    "allAnalysisData": true,
+    "insightsData": false
+  },
+  "originalProjectKey": "CREDITCARDFRAUDQUENTINVIEGAS",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "11.4.1",
+  "generatedWithDSSConfVersion": "11400",
+  "foreignObjects": [],
+  "exportedWithPlugins": [
+    {
+      "pluginId": "geoadmin",
+      "version": "2.3.1"
+    },
+    {
+      "pluginId": "local-r-dev-setup",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "code-studio-blocks",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "k8s-metrics-utils",
+      "version": "1.0.0"
+    }
+  ],
+  "exportedWithCodeStudioTemplates": [],
+  "requiredCodeStudioTemplates": [],
+  "requiredConnections": {
+    "filesystem_managed": {
+      "name": "filesystem_managed",
+      "type": "Filesystem",
+      "isMissing": false
+    }
+  },
+  "allowedMissingConnections": [],
+  "usedCodeEnvRefs": [],
+  "allowedMissingCodeEnvs": [],
+  "hasPartitionedDataset": false
+}
