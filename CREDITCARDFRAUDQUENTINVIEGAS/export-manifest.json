@@ -6,7 +6,7 @@
     "exportSavedModels": true,
     "exportManagedFolders": false,
     "exportModelEvaluationStores": false,
-    "exportProjectResources": true,
+    "exportProjectResources": false,
     "exportLabelingTasks": false,
     "exportAllInputDatasets": true,
     "exportAllDatasets": false,
